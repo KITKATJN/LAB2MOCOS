@@ -1,0 +1,1 @@
+GenerateSignal(20);
