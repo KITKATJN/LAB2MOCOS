@@ -1,10 +1,10 @@
 #include "Header.h"
 
 
-std::vector < std::complex < double>> ReadSignal()
+std::vector < std::complex < double>> ReadSignal(std::string path)
 {
 	std::ifstream file;
-	file.open("C:/Users/lvuti/Desktop/t.txt");
+	file.open(path);
 
 	std::size_t count = 0;
 	double x;
@@ -13,7 +13,7 @@ std::vector < std::complex < double>> ReadSignal()
 	std::vector < std::complex < double>> signal(count / 2);
 	double tmp;
 	file.close();
-	file.open("C:/Users/lvuti/Desktop/t.txt");
+	file.open(path);
 	for (size_t i = 0; i < count; i++)
 	{
 		file >> tmp;

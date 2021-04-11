@@ -10,10 +10,14 @@
 #include <complex>
 #include <vector>
 #include <cmath>
+#include <ctime>
+#include <string>
 #define M_PI 3.14159265358979323846
-std::vector < std::complex < double>> ReadSignal();
+std::vector < std::complex < double>> ReadSignal(std::string path);
 std::vector < std::complex < double>> DPF(std::vector < std::complex < double>> X);
 std::vector < std::complex < double>> ODPF(std::vector < std::complex < double>> Y);
+std::vector < std::complex < double>> BPF(std::vector < std::complex < double>> X);
+std::vector < std::complex < double>> OBPF(std::vector < std::complex < double>> Y);
 //double* readfromfile(char* path);
 
 #endif // !HEADER_H

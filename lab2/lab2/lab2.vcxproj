@@ -139,10 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BPF.cpp" />
     <ClCompile Include="DPF.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OBPF.cpp" />
     <ClCompile Include="ODPF.cpp" />
     <ClCompile Include="readfromfile.cpp" />
+    <ClCompile Include="SVERTKA.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />
