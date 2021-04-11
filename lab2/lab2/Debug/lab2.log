@@ -1,26 +1,2 @@
-﻿  BPF.cpp
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(6,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(11,23): warning C4018: <=: несоответствие типов со знаком и без знака
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(19,25): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(19,57): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(20,38): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(21,41): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(22,31): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\BPF.cpp(23,35): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-  DPF.cpp
-  main.cpp
-C:\Users\lvuti\source\repos\lab2\lab2\main.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  OBPF.cpp
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(10,8): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(15,23): warning C4018: <=: несоответствие типов со знаком и без знака
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(23,25): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(23,57): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(24,38): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(25,41): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(26,31): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-C:\Users\lvuti\source\repos\lab2\lab2\OBPF.cpp(27,35): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
-  ODPF.cpp
-  readfromfile.cpp
-  SVERTKA.cpp
-  Создание кода...
+﻿  OBPF.cpp
   lab2.vcxproj -> C:\Users\lvuti\source\repos\lab2\Debug\lab2.exe

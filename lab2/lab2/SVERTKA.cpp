@@ -1,17 +1,29 @@
 #include "Header.h"
 
-using namespace std;
-vector<double> conv(const vector<double>& x, const vector<double>& y) 
+
+std::vector < std::complex < double>> svertka(std::vector < std::complex < double>>x, std::vector < std::complex < double>>y)
 {
-	vector<double> result(x.size() + y.size() - 1);
-	for (size_t i = 0; i < result.size(); i++) 
+	int a = size(x);
+	int b = size(y);
+	std::vector < std::complex < double>> result(a + b - 1);
+
+	x.resize(a + b - 1);
+	y.resize(a + b - 1);
+
+
+	for (size_t i = 0; i < result.size(); i++)
 	{
-		for (size_t j = 0; j < y.size(); j++) 
+		int i1 = i;
+		std::complex<double> tmp = 0.0;
+
+		for (size_t j = 0; j < b; j++)
 		{
-			if (i < j + x.size())
+			if (i1 >= 0 && i1 <= a)
 			{
-				result[i] += x[i - j] * y[j];
+				tmp = tmp + x[i1] * y[j];
 			}
+			i1 = i1 - 1;
+			result[i] = tmp;
 		}
 	}
 	return result;

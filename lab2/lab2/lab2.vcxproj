@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BPF.cpp" />
+    <ClCompile Include="Bsvertka.cpp" />
     <ClCompile Include="DPF.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OBPF.cpp" />

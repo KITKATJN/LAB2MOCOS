@@ -34,6 +34,27 @@ int main(int argc, char *argv[])
 	//std::cout << "TIME = " << search_time << std::endl;
 	std::cout << "runtime DPF = " << DPF_time / 1000.0 << std::endl; // גנולÿ נאבמעû ןנמדנאללû  
 	std::cout << "runtime BPF = " << (BPF_time_end - BPF_time_start) / 1000.0 << std::endl; // גנולÿ נאבמעû ןנמדנאללû  
+
+	//std::vector < std::complex < double>> signal2 = ReadSignal("C:/Users/lvuti/Desktop/t.txt");
+	//std::vector < std::complex < double>> signal3 = ReadSignal("C:/Users/lvuti/Desktop/t.txt");
+
+	std::vector < std::complex < double>> svertkaS = svertka(signal, signal);
+	for (size_t j = 0; j < size(svertkaS); j++)
+	{
+		std::cout << "svertkaS = " << svertkaS[j] << std::endl;
+	}
+
+//	std::vector < std::complex < double>> sig = ReadSignal("C:/Users/lvuti/Desktop/t.txt");
+	//std::vector < std::complex < double>> sig2 = ReadSignal("C:/Users/lvuti/Desktop/t.txt");
+
+	std::vector < std::complex < double>> trouble = Bsvertka(signal, signal);
+	for (size_t j = 0; j < size(trouble); j++)
+	{
+		std::cout << "svertkaB = " << trouble[j] << std::endl;
+	}
+
+	
+
 	//readfromfile(argv[1]);
 	return 0;
 }

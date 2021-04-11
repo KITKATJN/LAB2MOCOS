@@ -18,6 +18,8 @@ std::vector < std::complex < double>> DPF(std::vector < std::complex < double>> 
 std::vector < std::complex < double>> ODPF(std::vector < std::complex < double>> Y);
 std::vector < std::complex < double>> BPF(std::vector < std::complex < double>> X);
 std::vector < std::complex < double>> OBPF(std::vector < std::complex < double>> Y);
+std::vector < std::complex < double>> svertka(const std::vector < std::complex < double>> x_x, const std::vector < std::complex < double>> y_y);
+std::vector < std::complex < double>> Bsvertka(std::vector < std::complex < double>> signal1, std::vector < std::complex < double>> signal2);
 //double* readfromfile(char* path);
 
 #endif // !HEADER_H
