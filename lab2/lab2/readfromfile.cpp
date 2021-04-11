@@ -26,7 +26,7 @@ std::vector < std::complex < double>> ReadSignal(std::string path)
 		{
 			signal[i / 2].imag(tmp);
 		}
-		std::cout << "signal = " << signal[i / 2] << " i = " << i << std::endl;
+		//std::cout << "signal = " << signal[i / 2] << " i = " << i << std::endl;
 	}
 
 	file.close();

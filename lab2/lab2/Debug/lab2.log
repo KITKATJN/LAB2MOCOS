@@ -1,2 +1,3 @@
-﻿  OBPF.cpp
+﻿  main.cpp
+C:\Users\lvuti\source\repos\lab2\lab2\main.cpp(44,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   lab2.vcxproj -> C:\Users\lvuti\source\repos\lab2\Debug\lab2.exe
